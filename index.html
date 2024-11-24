@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa de los Postres</title>
+
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;       
+        }
+        
+        header {
+    
+            background-color: #f364ec;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        header .logo img{
+    width: 100px;
+    border-radius: 5px;
+     }
+        h1 {
+            margin: 0;
+            color: rgb(14, 13, 13);
+            font-size: 24px;
+        }
+        
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+          
+        .postre {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           
+        }
+         .postre img {
+            width: 100%; /* Ajusta al ancho del contenedor */
+            height: 150px; /* Tamaño fijo */
+            object-fit: cover; /* Recorta la imagen si es necesario */
+            border-radius: 5px;
+        }
+         /*
+         footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f364ec;
+            color: rgb(10, 10, 10);
+            font-size: 14px;
+        }
+            */
+            footer {
+            text-align: center; /* Alinea el texto de contacto a la izquierda */
+            position: relative; /* Asegura que puedas moverlo si es necesario */
+            left: 0; /* Asegúrate de que esté en la parte izquierda */
+            padding: 20px;
+            background-color: #f364ec;
+            color: rgb(10, 10, 10);
+            font-size: 18px;
+}
+
+        .titulo {
+            justify-content: center;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+    <img src="img/logo postres.jpg" alt="Logo">    
+    </div>
+
+    <div class="titulo">
+        <h1>La Casa de los Postres</h1>
+    </div>
+
+ 
+
+</header>
+
+<div class="catalogo">
+    <div class="postre">
+        <img src="img/Tarta queso y mermelada.png" alt="Tarta de queso y mermelada">
+        <h2>Tarta de queso y mermelada</h2>
+        <p>"La suavidad de la tarta de queso acompañada por la dulzura de la mermelada." </p>
+        <a href="https://cookpad.com/co/recetas/3631269-tarta-de-queso-con-mermelada-de-fresa-o-frambuesa" 
+        class="btn">Receta para realizar en casa</a>
+        
+    </div>
+
+    <div class="postre">
+        <img src="img/postre maracuya.png" alt="Postre maracuya">
+        <h2>Postre maracuya</h2>
+        <p>"Un dulce abrazo de maracuyá que combina frescura y dulzura,
+             llevando tus sentidos a un paraíso tropical."</p>
+        <a href="https://cookpad.com/co/recetas/12014385-postre-de-maracuya" 
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/Flan o quesillo.png" alt="Flan o quesillo">
+        <h2>Flan o Quesillo</h2>
+        <p>"El flan que te abraza con su suavidad,
+             te enamora con su cremosidad y te endulza el alma con su sabor clásico e irresistible.".</p>
+         <a href="https://cookpad.com/co/recetas/23974745-leche-asada-o-quesillo?ref=search&search_term=quesillo" 
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/postre chocolate.png" alt="Postre chocolate">
+        <h2>Postre chocolate</h2>
+        <p> "Un postre de chocolate que derrite corazones y deja un dulce recuerdo en cada bocado."</p>
+        <a href="https://cookpad.com/co/recetas/14517577-postre-de-chocolate-con?ref=search&search_term=postres+de+chocolate"
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/cheesecake_Oreo.png" alt="Cheesecake_Oreo">
+        <h2>Cheesecake_Oreo</h2>
+        <p>"La combinación perfecta entre el cremoso sabor del cheesecake y el toque irresistible de Oreo: 
+            un placer que no podrás dejar de saborear."</p>
+        <a href="https://cookpad.com/co/recetas/13612439-cheesecake-de-oreo?ref=search&search_term=cheesecake+de+oreo"
+         class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/Tarta fresa.png" alt="Tarta fresa">
+        <h2>Tarta fresa</h2>
+        <p>"La tarta de fresa que convierte cualquier momento en algo especial."</p>
+        <a href="https://cookpad.com/co/recetas/14752021-saludable-cheesecake-de-fresa-sin-azucar-tarta-de-fresa-y-queso?ref=search&search_term=tarta+de+fresa"
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/cupcakes-de-fresa.png" alt="cupcakes-de-fresa">
+        <h2>cupcakes-de-fresa</h2>
+        <p>"La combinación perfecta de esponjosidad y frescura en cada mordisco."</p>
+        <a href="https://cookpad.com/co/recetas/11650235-cupcakes-de-fresa?ref=search&search_term=cupcake+de+fresa"
+        class="btn"> Receta Para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/tarta-de-limon.png" alt="tarta-de-limon">
+        <h2>Tarta-de-limon</h2>
+        <p>"Despierta los sentidos con su sabor cítrico y su toque suave de dulzura."</p>
+        <a href="https://cookpad.com/co/recetas/23890306-tarta-de-limon-con-mascarpone-y-queso-fresco?ref=search&search_term=tarta+de+limon"
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/Flan Caramelo.png" alt="Flan Caramelo">
+        <h2>Flan Caramelo</h2>
+        <p>
+            "El flan de caramelo que conquista con su textura suave, 
+            su dulzura perfecta y ese toque de caramelo que lo hace simplemente irresistible."</p>
+        <a href="https://cookpad.com/co/recetas/13037179-flan-de-caramelo?ref=search&search_term=flan+al+caramelo"
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+
+    <div class="postre">
+        <img src="img/cheesecake_crema.png" alt="cheesecake_crema">
+        <h2>cheesecake_crema</h2>
+        <p>"La suavidad de la crema, el sabor inconfundible del cheesecake:
+             un placer que se derrite en tu boca y te deja con ganas de más."</p>
+        <a href="https://cookpad.com/co/recetas/13515379-cheesecake-de-fresa-sin-horno-y-sin-azucar?ref=search&search_term=cheesecake+crema"
+        class="btn"> Receta para realizar en casa</a>
+    </div>
+</div>
+
+<div id="detalles" class="detalles"></div>
+
+
+<!--Avatar-->
+<iframe src="https://files.fm/f/gsjtgg46z9" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="1350px" allowfullscreen></iframe>
+
+<!--Presentacion en genially-->
+<main class="genially">
+<div class="container-wrapper-genially" style="position: relative; min-height: 200px; max-width: 1350px;"><video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 300px;height: 100px;margin-bottom: 10%"><source src="https://static.genially.com/resources/loader-default-rebranding.mp4" type="video/mp4" />Your browser does not support the video tag.</video><div id="673f607f6333b667976f3f07" class="genially-embed" style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div></div><script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genially.com/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
+</main>
+
+<!--Kahoot-->
+<iframe src="https://kahoot.it/challenge/08535738?challenge-id=71a4e04b-0e11-4df8-a356-53abdb4f96c7_1732419106619" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="1350px" allowfullscreen></iframe>
+
+<!--Videojuego en scrath -->
+<main>
+
+    <div class="juego"></div>
+    <iframe src="https://scratch.mit.edu/projects/1094064526/embed" 
+        allowtransparency="true"
+        width="1350"
+        height="600"
+        frameborder="0"
+        scrolling="0"
+
+    ></iframe>
+    </main>
+
+    <!--Aplicativo en app inventor-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .hidden {
+            display: none;
+            width: 1350px;
+            text-align: center;
+        }
+        
+        .container {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #5e1212;
+            background-color: rgb(179, 16, 243) ;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Postres</h1>
+    <div id="contenedor" class="container">
+        <p>Contenido del Aplicativo de App Inventor.</p>
+    </div>
+    <button id="btnRegresar">Regresar</button>
+
+    <script>
+        // Referencias a elementos del DOM
+        const contenedor = document.getElementById('contenedor');
+        const btnRegresar = document.getElementById('btnRegresar');
+
+        // Evento de clic para el botón "Regresar"
+        btnRegresar.addEventListener('click', () => {
+            contenedor.classList.toggle('hidden'); // Cambia la visibilidad
+        });
+    </script>
+</body>
+
+
+<footer>
+
+    <div class="contacto">
+        <h3>Contacto</h3>
+        <p>Teléfono: <a href="tel:+57 304 815 2182">+57 304 815 2182</a></p>
+        <p>Email: <a href="lacasadelospostres@gmail.com">lacasadelospostres@gmail.com</a></p>
+        <p>Dirección: Calle Flor de oro 456, Barrio del rio, Ciudad de Elyria, País de Valverde</p>
+    </div>
+    <p>&copy; 2024 Catálogo de Postres. Todos los derechos reservados.</p> 
+
+</footer>
+
+</body>
+</html>
